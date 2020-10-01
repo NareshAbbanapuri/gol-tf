@@ -8,7 +8,7 @@
       update_cache: yes 
   - name: deploy application
     get_url:
-     url: https://jar-war.s3.amazonaws.com/gameoflife.war
+     url: https://war-jar-vn.s3.amazonaws.com/gameoflife.war
      dest: /var/lib/tomcat8/webapps 
   - name: restart tomcat8 
     service: 
